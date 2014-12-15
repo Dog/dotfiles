@@ -15,4 +15,7 @@ install irssi
 install homebrew/php/phpunit
 install mysql
 
+tap homebrew/binary
+install exercism
+
 cleanup
