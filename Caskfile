@@ -1,0 +1,24 @@
+# Install native apps
+# Usage: `brew bundle Caskfile`
+install caskroom/cask/brew-cask
+tap caskroom/versions
+
+cask install sublime-text3
+cask install dash
+cask install flash
+cask install flashlight
+cask install sequel-pro
+cask install vlc
+cask install postgres
+cask install the-unarchiver
+cask install unrarx
+cask install iterm2
+cask install vmware-fusion
+cask install vagrant
+cask install dropbox
+cask install xquartz
+cask install skype
+cask install evernote
+cask install adobe-creative-cloud
+
+brew cleanup
