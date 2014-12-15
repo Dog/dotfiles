@@ -21,4 +21,4 @@ cask install skype
 cask install evernote
 cask install adobe-creative-cloud
 
-brew cleanup
+cleanup
