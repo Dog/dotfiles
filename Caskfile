@@ -20,5 +20,6 @@ cask install xquartz
 cask install skype
 cask install evernote
 cask install adobe-creative-cloud
+cask install anki
 
 cleanup
