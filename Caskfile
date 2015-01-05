@@ -9,6 +9,7 @@ cask install --appdir=/Applications dash
 cask install --appdir=/Applications sequel-pro
 cask install --appdir=/Applications postgres
 cask install --appdir=/Applications vmware-fusion
+cask isntall --appdir=/Applications vagrant
 cask install --appdir=/Applications iterm2
 
 # Plugins/Codecs
