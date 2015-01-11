@@ -14,6 +14,7 @@ install fish
 install irssi
 install homebrew/php/phpunit
 install mysql
+install lua
 
 tap homebrew/binary
 install exercism
