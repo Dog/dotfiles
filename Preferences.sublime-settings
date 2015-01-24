@@ -1,0 +1,50 @@
+{
+    "theme": "Spacegray Eighties.sublime-theme",
+    "color_scheme": "Packages/Base16 Color Schemes/base16-default.dark.tmTheme",
+ 
+    // Font Settings
+    "font_face": "Input Sans",
+    "font_size": 14,
+    "font_options": ["subpixel_antialias"],
+    
+    // Pep 8 assistance
+    "translate_tabs_to_spaces": true,
+    "rulers": [72, 79],
+    "word_wrap": true,
+    "wrap_width": 80,
+    
+    // Caret Settings
+    "caret_style": "solid",
+    "wide_caret": true,
+    
+    "fold_buttons": false,
+    "draw_white_space": "all",
+    "show_minimap": false,
+    "scroll_past_end": false,
+    "highlight_modified_tabs": true,
+    "ensure_newline_at_eof_on_save": false,
+    "trim_trailing_white_space_on_save": true,
+    "ensure_newline_at_eof_on_save": true,
+    "save_on_focus_lost": true,
+    "default_line_ending": "unix",
+    "auto_complete_commit_on_tab": true,
+    
+    // Excludes
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "file_exclude_patterns":
+    [
+        ".DS_Store",
+        "*.pid",
+        "*.pyc"
+    ],
+    "folder_exclude_patterns":
+    [
+        ".git",
+        "__pycache__",
+        "env",
+        "env3"
+    ]
+}
