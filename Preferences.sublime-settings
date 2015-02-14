@@ -22,7 +22,6 @@
     "show_minimap": false,
     "scroll_past_end": false,
     "highlight_modified_tabs": true,
-    "ensure_newline_at_eof_on_save": false,
     "trim_trailing_white_space_on_save": true,
     "ensure_newline_at_eof_on_save": true,
     "save_on_focus_lost": true,
