@@ -10,7 +10,6 @@ install git
 install wget --with-iri
 install pyenv
 install pyenv-virtualenv
-install fish
 install irssi
 install homebrew/php/phpunit
 install mysql
