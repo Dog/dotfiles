@@ -11,6 +11,7 @@ install wget --with-iri
 install pyenv
 install pyenv-virtualenv
 install irssi
+install z
 install homebrew/php/phpunit
 install mysql
 install htop
