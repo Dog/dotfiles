@@ -13,6 +13,7 @@ install pyenv-virtualenv
 install irssi
 install homebrew/php/phpunit
 install mysql
+install htop
 install lua
 
 tap homebrew/binary
