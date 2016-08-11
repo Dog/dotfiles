@@ -6,10 +6,12 @@ tap caskroom/versions
 # Development Tools
 cask install --appdir=/Applications dash
 cask install --appdir=/Applications sequel-pro
+cask install --appdir=/Applications vivaldi
 cask install --appdir=/Applications postgres
 cask install --appdir=/Applications vmware-fusion
 cask install --appdir=/Applications vagrant
 cask install --appdir=/Applications iterm2
+cask install --appdir=/Applications slack
 
 # Plugins/Codecs
 cask install --appdir=/Applications flash
@@ -25,5 +27,6 @@ cask install --appdir=/Applications vagrant
 cask install --appdir=/Applications evernote
 cask install --appdir=/Applications flash
 cask install --appdir=/Applications silverlight
+cask install --appdir=/Applications alfred
 
 cleanup
