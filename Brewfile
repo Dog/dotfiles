@@ -4,20 +4,23 @@
 update
 
 # Upgrade any already-installed formulae.
-upgrade
+upgrade --all
+
+install coreutils
+
+# Update grep
+install homebrew/dupes/grep
 
 install git
-install wget --with-iri
 install pyenv
 install pyenv-virtualenv
-install irssi
+install weechat
+install zsh
 install z
-install homebrew/php/phpunit
 install mysql
+install postgres
 install htop
 install lua
-
-tap homebrew/binary
-install exercism
+install macvim --HEAD --with-cscope --with-lua --with-override-system-vim --with-luajit --with-python
 
 cleanup
