@@ -22,5 +22,7 @@ install postgres
 install htop
 install lua
 install macvim --HEAD --with-cscope --with-lua --with-override-system-vim --with-luajit --with-python
+install koekeishiya/kwm/kwm
+install vit
 
 cleanup
