@@ -3,6 +3,8 @@
 install caskroom/cask/brew-cask
 tap caskroom/versions
 
+cask update
+
 # Development Tools
 cask install --appdir=/Applications dash
 cask install --appdir=/Applications sequel-pro
@@ -10,7 +12,7 @@ cask install --appdir=/Applications vivaldi
 cask install --appdir=/Applications postgres
 cask install --appdir=/Applications vmware-fusion
 cask install --appdir=/Applications vagrant
-cask install --appdir=/Applications iterm2
+cask install --appdir=/Applications hyperterm
 cask install --appdir=/Applications slack
 
 # Plugins/Codecs
