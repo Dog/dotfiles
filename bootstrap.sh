@@ -23,6 +23,7 @@ else
 	echo "";
 	if [[ $REPLY =~ ^[Yy]$ ]]; then
 		doIt;
+		./.macos;
 	fi;
 fi;
 unset doIt;
