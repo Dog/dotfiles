@@ -22,6 +22,7 @@ brew install pyenv
 brew install pyenv-virtualenv
 brew install weechat
 brew install zsh
+brew install node
 
 # Change default to brew zsh
 sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
