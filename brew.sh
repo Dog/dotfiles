@@ -22,6 +22,10 @@ brew install pyenv
 brew install pyenv-virtualenv
 brew install weechat
 brew install zsh
+
+# Change default to brew zsh
+sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
+
 brew install z
 brew install mysql
 brew install postgres
