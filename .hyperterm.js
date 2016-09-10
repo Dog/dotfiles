@@ -3,7 +3,8 @@ module.exports = {
 
     // hyperclean makes the window borderless and we want to hide tabs
     hyperclean: {
-        hideTabs: true
+        hideTabs: true,
+        hideFirstTabBorder: true,
     },
 
     // default font size in pixels for all tabs
