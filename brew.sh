@@ -39,18 +39,15 @@ brew cask install --appdir=/Applications slack
 
 # Plugins/Codecs
 brew cask install --appdir=/Applications flash
+brew cask install --appdir=/Applications silverlight
 brew cask install --appdir=/Applications flashlight
-brew cask install --appdir=/Applications xquartz
 
 # Applications
 brew cask install --appdir=/Applications 1password
 brew cask install --appdir=/Applications vlc
 brew cask install --appdir=/Applications the-unarchiver
 brew cask install --appdir=/Applications unrarx
-brew cask install --appdir=/Applications vagrant
 brew cask install --appdir=/Applications evernote
-brew cask install --appdir=/Applications flash
-brew cask install --appdir=/Applications silverlight
 brew cask install --appdir=/Applications alfred
 
 brew cleanup
