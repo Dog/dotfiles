@@ -18,7 +18,6 @@ cask install --appdir=/Applications slack
 # Plugins/Codecs
 cask install --appdir=/Applications flash
 cask install --appdir=/Applications flashlight
-cask install --appdir=/Applications xquartz
 
 # Applications
 cask install --appdir=/Applications 1password
