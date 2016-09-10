@@ -5,6 +5,7 @@ brew tap caskroom/versions
 brew update
 brew cask update
 
+brew install mas
 sh ./mas.sh
 
 brew update
