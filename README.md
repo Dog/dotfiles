@@ -7,10 +7,9 @@ Install developer tools
 
 `xcode-select --install`
 
-Install Homebrew
+Install Homebrew from: http://brew.sh/
 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-from: http://brew.sh/
 
 Install dotfiles
 
