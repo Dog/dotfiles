@@ -6,10 +6,7 @@ brew update
 brew cask update
 
 brew install mas
-sh ./mas.sh
-
-brew update
-brew cask update
+mas install 497799835
 
 # Upgrade any already-installed formulae.
 brew upgrade --all
@@ -40,13 +37,13 @@ brew cask install --appdir=/Applications sequel-pro
 brew cask install --appdir=/Applications vivaldi
 brew cask install --appdir=/Applications postgres
 brew cask install --appdir=/Applications vmware-fusion
-brew cask install --appdir=/Applications vagrant
+brew cask install vagrant
 brew cask install --appdir=/Applications hyperterm
 brew cask install --appdir=/Applications slack
 
 # Plugins/Codecs
-brew cask install --appdir=/Applications flash
-brew cask install --appdir=/Applications silverlight
+brew cask install flash
+brew cask install silverlight
 brew cask install --appdir=/Applications flashlight
 
 # Applications
