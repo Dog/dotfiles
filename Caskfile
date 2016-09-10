@@ -24,7 +24,6 @@ cask install --appdir=/Applications 1password
 cask install --appdir=/Applications vlc
 cask install --appdir=/Applications the-unarchiver
 cask install --appdir=/Applications unrarx
-cask install --appdir=/Applications vagrant
 cask install --appdir=/Applications evernote
 cask install --appdir=/Applications flash
 cask install --appdir=/Applications silverlight
