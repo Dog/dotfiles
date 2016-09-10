@@ -14,6 +14,7 @@ brew install coreutils
 brew install homebrew/dupes/grep
 
 brew install git
+brew install httpie
 brew install pyenv
 brew install pyenv-virtualenv
 brew install weechat
