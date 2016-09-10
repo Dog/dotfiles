@@ -14,7 +14,7 @@ brew upgrade --all
 brew install coreutils
 
 # Update grep
-brew install homebrew/dupes/grep
+brew install homebrew/dupes/grep --with-default-names
 
 brew install git
 brew install httpie
