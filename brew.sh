@@ -29,6 +29,12 @@ brew install htop
 brew install lua
 brew install macvim --HEAD --with-cscope --with-lua --with-override-system-vim --with-luajit --with-python
 brew install koekeishiya/kwm/kwm
+
+# kwm setup default and auto start
+mkdir -p ~/.kwm
+cp /usr/local/Cellar/kwm/3.1.3/kwmrc ~/.kwm/kwmrc
+brew services start koekeishiya/kwm/kwm
+
 brew install vit
 
 # Development Tools
