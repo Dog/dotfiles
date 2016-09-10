@@ -1,6 +1,11 @@
 brew update
-brew install caskroom/cask/brew-cask
+brew tap caskroom/cask
 brew tap caskroom/versions
+
+brew update
+brew cask update
+
+sh ./mas.sh
 
 brew update
 brew cask update
