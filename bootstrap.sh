@@ -16,6 +16,8 @@ function doIt() {
 	source ~/.bash_profile;
 }
 
+sudo softwareupdate -i -a
+
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	sh ./.macos;
 	sh ./brew.sh
