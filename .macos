@@ -129,6 +129,12 @@ chflags nohidden ~/Library
 # Show the /Volumes folder
 sudo chflags nohidden /Volumes
 
+# Show all file extensions
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# Show hidden files
+defaults write com.apple.finder AppleShowAllFiles true
+
 ###############################################################################
 # Mac App Store                                                               #
 ###############################################################################
